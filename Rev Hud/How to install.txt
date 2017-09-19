@@ -1,0 +1,4 @@
+### Installing
+After extracting the hud, navigate to: `\Steam\steamapps\common\team fortress 2\tf\custom\` and move the "RevHUD" folder into your custom folder.
+
+Your directory should then look like this: `\Steam\steamapps\common\team fortress 2\tf\custom\RevHUD` and contain `materials`, `resource`, and `scripts`. The `Customization` folder can be deleted or stored somewhere else if you intend to use files from it.
