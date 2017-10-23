@@ -105,6 +105,7 @@
 		"tabwidth"		"240"
 		"tabheight"		"30"
 		"transition_time" "0"
+		"yoffset" "14"
 		
 		"HeaderLine"
 		{
@@ -124,6 +125,7 @@
 		"tabskv"
 		{ 
 			"textinsetx"		"5"
+			"textinsety"		"13"
 			"font"				"latosemibold24"
 			"selectedcolor"		"bh_white"
 			"unselectedcolor"	"46 43 42 220"	
