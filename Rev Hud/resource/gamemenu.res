@@ -3,12 +3,6 @@
 {	
 // Main Buttons
 
-	"CasualButton"
-	{
-		"label" 		"Start Playing" 
-		"command" 		"play_casual"
-		"subimage" 		"glyph_server"
-	}
 	"ServerBrowserButton"
 	{
 		"label" "#MMenu_BrowseServers"
@@ -17,21 +11,9 @@
 	}
 	"CreateServerButton"
 	{
-		"label" "Create"
+		"label" "+"
 		"command" "OpenCreateMultiplayerGameDialog"
-	}
-	"MvMButton"
-	{
-		"label" "Play Co-op" 
-		"command" "play_mvm"
-		"subimage" "glyph_coop"
-	}
-	"CompetitiveButton"
-	{
-		"label" "Competitive" 
-		"command" "play_competitive"
-		"subimage" "glyph_practice"
-		"OnlyAtMenu" "0"
+		"tooltip"	"Create"
 	}
 	"DemouiButton"
 	{
@@ -86,12 +68,6 @@
 		"tooltip" "#MMenu_CallVote"
 	}
 		
-	"MotdShowButton"
-    {
-        "label" "News"
-        "command"   "motd_show"
-		"subimage"			"glyph_forums"
-    }
 	"TrainingButton"
 	{
 		"label" "#TF_Training"
@@ -126,9 +102,9 @@
 	}
 	"ConsoleButton"
 	{
-		"label" "c"
+		"label" "Console"
 		"command"	"engine toggleconsole"
-		"tooltip"	"Console"
+		"subimage"			"glyph_forums"
 	}
 	"AchievementsButton"
 	{
