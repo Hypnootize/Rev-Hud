@@ -111,11 +111,10 @@
 		"xpos"			"50"
 		"ypos"			"c-250"
 		"zpos"			"0"
-		"wide"			"140"
-		"tall"			"140"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"image"			"replay/thumbnails/tflogo"
 		"scaleImage"	"1"
 	}
 	"TFCharacterImage"

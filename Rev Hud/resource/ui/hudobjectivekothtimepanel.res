@@ -30,6 +30,7 @@
 		if_match
 		{
 			"xpos"				"34"
+			"ypos"				"6"
 		}
 		
 		"TimePanelValue"
@@ -51,7 +52,6 @@
 			if_match
 			{
 				"font"			"HudFontSmall"
-				"ypos"			"7"
 			}
 		}	
 	}
@@ -77,7 +77,8 @@
 		
 		if_match
 		{
-			"xpos"				"70"
+			"xpos"				"73"
+			"ypos"				"6"
 		}
 		
 		"TimePanelValue"
@@ -105,8 +106,7 @@
 			
 			if_match
 			{
-				"font"			"HudFontSmall"
-				"ypos"			"7"
+				"font"				"HudFontSmall"
 			}
 		}	
 	}
@@ -123,5 +123,10 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"fillcolor"			"bh_orange"
+		
+		if_match
+		{
+			"visible"		"0"
+		}
 	}
 }

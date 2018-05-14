@@ -65,17 +65,15 @@
 		"scaleimage"			"1"
 	}
 	
-	"HudRoundCounterAnchor"
+	"TimerBackground"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"HudRoundCounterAnchor"
-		"xpos"			"0"
-		"ypos"			"3"
+		"fieldName"		"TimerBackground"
+		"xpos"			"110"
+		"ypos"			"10"
 		"zpos"			"6"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"1"
+		"wide"			"81"
+		"tall"			"15"
 		"fillcolor"		"TanDarker"
 	}
 	
@@ -83,47 +81,31 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BluBackground"
-		"xpos"			"114"
+		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"6"
-		"wide"			"38"
+		"wide"			"41"
 		"tall"			"8"
 		"fillcolor"		"Blue"
 		
-		"pin_to_sibling"	"HudRoundCounterAnchor"
-		"pin_corner_to_sibling" "PIN_TOPLEFT" // Corner of this Element
-		"pin_to_sibling_corner" "PIN_BOTTOMRIGHT" // Corner of Element you are pinning to
+		"pin_to_sibling"			"TimerBackground"
+		"pin_corner_to_sibling" 	"PIN_BOTTOMLEFT" 	// Corner of this Element
+		"pin_to_sibling_corner" 	"PIN_TOPLEFT" 		// Corner of Element you are pinning to
 	}
 	
 	"RedBackground"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"RedBackground"
-		"xpos"			"-0"
-		"ypos"			"0"
-		"zpos"			"6"
-		"wide"			"38"
-		"tall"			"8"
-		"fillcolor"		"Red"
-		
-		"pin_to_sibling"	"BluBackground"
-		"pin_corner_to_sibling" "PIN_TOPLEFT" // Corner of this Element
-		"pin_to_sibling_corner" "PIN_TOPRIGHT" // Corner of Element you are pinning to
-	}
-	
-	"TimerBackground"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"TimerBackground"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"6"
-		"wide"			"76"
-		"tall"			"15"
-		"fillcolor"		"TanDarker"
+		"wide"			"40"
+		"tall"			"8"
+		"fillcolor"		"Red"
 		
-		"pin_to_sibling"	"BluBackground"
-		"pin_corner_to_sibling" "PIN_TOPLEFT" // Corner of this Element
-		"pin_to_sibling_corner" "PIN_BOTTOMLEFT" // Corner of Element you are pinning to
+		"pin_to_sibling"			"TimerBackground"
+		"pin_corner_to_sibling" 	"PIN_BOTTOMRIGHT" 	// Corner of this Element
+		"pin_to_sibling_corner" 	"PIN_TOPRIGHT" 		// Corner of Element you are pinning to
 	}
 }

@@ -17,36 +17,37 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"		"MainBackground"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"-99"
 		"wide"			"f0"
 		"tall"			"480"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"image"			""
 		"scaleImage"		"1"
 	}	
 	
-	"LoadingBackground"
+	"Background_custom"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"LoadingBackground"
-		"xpos"			"0"
+		"fieldName"		"Background_Custom"
+		"xpox"			"0"
 		"ypos"			"0"
+		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"480"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"stamp_background_map"
+		"image"			"replay/thumbnails/Loading_Custom"
 		"scaleImage"	"1"
-	}
-
+	}	
+	
 	"MapInfo"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"	"MapInfo"
 		"xpos"		"0"
 		"ypos"		"0"
-		"wide"		"f0"
+		"wide"		"0"
 		"tall"		"480"
 		"visible"	"0"
 		"enabled"	"1"
@@ -62,10 +63,10 @@
 			"tall"			"480"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"stamp_background_map"
+			"image"			""
 			"scaleImage"		"1"
 		}
-
+		
 		"MapImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -77,7 +78,7 @@
 			"tall"			"300"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"stamp_background_map"
+			"image"			""
 			"scaleImage"	"1"		
 		}
 	
@@ -263,7 +264,7 @@
 		"fieldName"	"StatData"
 		"xpos"		"0"
 		"ypos"		"0"
-		"zpos"		"1"
+		"zpos"		"2"
 		"wide"		"f0"
 		"tall"		"480"
 		"visible"	"1"
