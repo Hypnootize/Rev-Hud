@@ -473,3 +473,17 @@ event ClearKritz
 	Animate Kritz8 alpha "0" Linear 0.0 0.001
 	Animate Kritz9 alpha "0" Linear 0.0 0.001
 }
+
+//=============================================
+
+event CompetitiveGame_LowerChatWindow
+{
+}
+event CompetitiveGame_RestoreChatWindow
+{
+}
+event HudTournament_MoveChatWindow
+{
+}
+
+//===========================================
