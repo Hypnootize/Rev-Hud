@@ -1,1 +1,0 @@
-Drag the 'resource' 'materials' or 'scripts' folders into the \RevHUD\ main folder
