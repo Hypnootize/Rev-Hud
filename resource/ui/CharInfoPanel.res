@@ -13,15 +13,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"settitlebarvisible"	"0" [$WINDOWS]
-		"settitlebarvisible"	"1" [!$WINDOWS]
+		"settitlebarvisible"	"1"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"				"46 43 42 0" [$WINDOWS]
-		"infocus_bgcolor_override"		"46 43 42 0" [$WINDOWS]
-		"outoffocus_bgcolor_override"	"46 43 42 0" [$WINDOWS]
-		"bgcolor_override"				"46 43 42 255" [!$WINDOWS]
-		"infocus_bgcolor_override"		"46 43 42 255" [!$WINDOWS]
-		"outoffocus_bgcolor_override"	"46 43 42 255" [!$WINDOWS]
+		"bgcolor_override"				"46 43 42 255"
+		"infocus_bgcolor_override"		"46 43 42 255"
+		"outoffocus_bgcolor_override"	"46 43 42 255"
 		
 		"title"			""
 		"title_font"	"G_FontTiny"
@@ -32,8 +28,7 @@
 		"titlebarbgcolor_override"				"46 43 42 255"
 		
 		"clientinsetx_override"			"0"
-		"sheetinset_bottom"				"60" [$WINDOWS]
-		"sheetinset_bottom"				"50" [!$WINDOWS]
+		"sheetinset_bottom"				"50"
 	}
 	
 	"BackgroundHeader"
@@ -105,7 +100,7 @@
 		"tabwidth"		"240"
 		"tabheight"		"30"
 		"transition_time" "0"
-		"yoffset" "14"
+		"yoffset" "2"
 		
 		"HeaderLine"
 		{
